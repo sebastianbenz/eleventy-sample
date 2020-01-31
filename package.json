@@ -1,0 +1,25 @@
+{
+  "name": "eleventy-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "0.10.0",
+    "@ampproject/toolbox-optimizer": "2.0.0-alpha.6",
+    "amphtml-validator": "1.0.29",
+    "clean-css": "4.2.3",
+    "highlight.js": "9.18.0",
+    "markdown-it": "10.0.0",
+    "marked": "0.8.0",
+    "probe-image-size": "^5.0.0"
+  },
+  "dependencies": {
+    "normalize-html-whitespace": "1.0.0"
+  }
+}

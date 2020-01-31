@@ -1,0 +1,17 @@
+<head>
+<!-- capture the CSS content as a Nunjucks variable -->
+{% set css %}
+  {% include "layouts/default.css" %}
+{% endset %}
+<style amp-custom>
+  {{ css | cssmin | safe }}
+</style>
+</head>
+<body>
+  <header>
+    <div class="title">My blog</div>
+  </header>
+  <main>
+  {{content | safe }}
+  </main>
+</body>
