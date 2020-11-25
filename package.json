@@ -14,7 +14,7 @@
     "@ampproject/toolbox-optimizer": "2.0.0-alpha.6",
     "amphtml-validator": "1.0.29",
     "clean-css": "4.2.3",
-    "highlight.js": "9.18.0",
+    "highlight.js": "10.1.2",
     "markdown-it": "10.0.0",
     "marked": "0.8.0",
     "probe-image-size": "^5.0.0"
